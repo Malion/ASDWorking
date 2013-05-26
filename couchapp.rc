@@ -1,7 +1,7 @@
 {
   "env": {
     "local": {
-      "db": "http://127.0.0.1:5984/asd"
+      "db": "http://192.168.2.9:5984/asd"
     },
     "cloudant": {
       "db": "https://museresiondamembsouldrit:nqtxf7xLs6hf4LcM7ry8W4Uk@malion.cloudant.com/asdproject"

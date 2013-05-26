@@ -30,7 +30,6 @@
 			</div>
             <div data-role="content">
 				<ul data-role="listview" data-inset="true" data-filter="true">
-					<li id="saveNewGame"><a href="#"><h3>Save New Game!</h3></a></li>
 					<li id="actionButton"><a href="#">
                     	<img src="Action.png" height="220" width="649"/>
 						<h3>Action</h3>
@@ -276,11 +275,11 @@
 						<p data-inline="true">*Required!</p>
 					</div>
 					<div class="ui-block-c">
-						<a href="#" value="Display Data" title="displayData" id="displayData" class="button" data-inline="true">Display Reviews</a>
+						<a href="#displayReviews" value="Display Data" title="displayData" id="displayData" class="button" data-inline="true">Display Reviews</a>
 					</div>
 				</div>
 				<!-- Input Fields -->
-				<form Action="" method="post" name="gameReviewForm" id="gameReviewForm">
+				<form Action="#" method="post" name="gameReviewForm" id="gameReviewForm">
 			  		<fieldset id="addItemField">
 						<div data-role="fieldcontain">
 				  			<ul data-role="listview"  data-inset="true" id="addItemForm">
@@ -309,7 +308,7 @@
                                 <li data-role="list-divider">Game Release Date*</li>
                                 <li id="gameReleaseLi">
                                 	<label for="gameRelease" style="display:none">Game Release Date: </label>
-                                    <input type="date" value="03/21/2013" id="gameRelease" name="gameRelease" class="required gameRelease" /> 
+                                    <input type="date" value="2013-03-21" id="gameRelease" name="gameRelease" class="required gameRelease" /> 
                                 </li>
                                 <li data-role="list-divider">Game Rating(0-10)</li>
                                 <li id="gameRatingLi">
@@ -364,11 +363,10 @@
                 </div>
                 <div data-role="content">
                 	<ul data-role="listview" data-inset="true" data-filter="true">
-                        <div data-role="fieldcontain">
                             <ul data-role="collapsible-set">
+							</ul>
                             <ul data-role="collapsible-set" data-ajax="false">
                             </ul>
-                        </div>
                     </ul>
                 </div>
                 <div data-role="footer" >
