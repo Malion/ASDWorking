@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 
 <!-- Jesse James -->
-<!-- 3-18-2013 -->
-<!-- MiU Project 3 1303 -->
+<!-- 5-27-2013 -->
+<!-- ASD Project 4 1305 -->
 
 <html>
 	<head>
@@ -23,42 +23,82 @@
 		<!-- Home Page -->
     	<div data-role="page" id="home" data-theme="a">
         	<div data-role="header" data-position="fixed">
-            	<h1>Video Game Reviews</h1>
+            	<h1>
+					Video Game Reviews
+				</h1>
             </div>
 			<div align="center" style="max-width:100%">
-				<a data-ajax="false" href="#addItem"><img height="180" width="320" src="VideoGameStack.png" /></a>
+				<a data-ajax="false" href="#addItem">
+					<img height="180" width="320" alt="Welcome" src="VideoGameStack.png" />
+				</a>
 			</div>
             <div data-role="content">
 				<ul data-role="listview" data-inset="true" data-filter="true">
-					<li id="actionButton"><a href="#">
-                    	<img src="Action.png" height="220" width="649"/>
-						<h3>Action</h3>
-					</a></li>
-					<li id="adventureButton"><a href="#">
-                    	<img src="Adventure.png" height="220" width="649"/>
-						<h3>Adventure</h3>
-					</a></li>
-					<li id="fpsButton"><a href="#">
-                    	<img src="First-Person-Shooter.png" height="220" width="649"/>
-						<h3>First-Person-Shooter</h3>
-					</a></li>
-					<li id="racingButton"><a href="#">
-                    	<img src="Racing.png" height="220" width="649"/>
-						<h3>Racing</h3>
-					</a></li>
-					<li id="rpButton"><a href="#">
-                    	<img src="Role-Playing.png" height="220" width="649"/>
-						<h3>Role Playing</h3>
-					</a></li>
+					<li id="actionButton">
+						<a href="#Action">
+							<img src="Action.png" alt="Action" height="220" width="649"/>
+							<h3>
+								Action
+							</h3>
+						</a>
+					</li>
+					<li id="adventureButton">
+						<a href="#Adventure">
+							<img src="Adventure.png" alt="Adventure" height="220" width="649"/>
+							<h3>
+								Adventure
+							</h3>
+						</a>
+					</li>
+					<li id="fpsButton">
+						<a href="#First-Person-Shooter">
+							<img src="First-Person-Shooter.png" alt="First Person Shooter" height="220" width="649"/>
+							<h3>
+								First-Person-Shooter
+							</h3>
+						</a>
+					</li>
+					<li id="racingButton">
+						<a href="#Racing">
+							<img src="Racing.png" height="220" alt="Racing" width="649"/>
+							<h3>
+								Racing
+							</h3>
+						</a>
+					</li>
+					<li id="rpButton">
+						<a href="#Role-Playing">
+							<img src="Role-Playing.png" height="220" alt="Role Playing" width="649"/>
+							<h3>
+								Role Playing
+							</h3>
+						</a>
+					</li>
 				</ul>					
             </div>
             <div data-role="footer" data-position="fixed" data-id="nav">
 				<div data-role="navbar">
 					<ul>
-						<li><a href="#home" data-icon="home" class="ui-btn-active">Home</a></li>
-						<li><a href="#favorites" data-icon="star">Favorites</a></li>
-						<li><a href="#news" data-icon="grid">News Stream</a></li>
-						<li><a href="#about" data-icon="info">Information</a></li>
+						<li>
+							<a href="#home" data-icon="home" class="ui-btn-active">
+								Home
+							</a>
+						</li>
+						<li>
+							<a href="#favorites" data-icon="star">
+								Favorites
+							</a>
+						</li>
+						<li>
+							<a href="#news" data-icon="grid">
+								News Stream
+							</a>
+						</li>
+						<li>
+							<a href="#about" data-icon="info">
+								Information
+							</a>
+						</li>
 					</ul>
 				</div>
         	</div>
@@ -72,16 +112,32 @@
 				<div data-role="collapsible-set" data-inset="true" data-content-theme="d" id="ActionReviews" data-filter="true">
                 </div>
 			</div>
-			<div data-role="footer"  data-position="fixed" data-id="nav">
+			<div data-role="footer" data-position="fixed" data-id="nav">
 				<div data-role="navbar">
 					<ul>
-						<li><a href="#home" data-icon="home">Home</a></li>
-						<li><a href="#favorites" data-icon="star">Favorites</a></li>
-						<li><a href="#news" data-icon="grid">News Stream</a></li>
-						<li><a href="#about" data-icon="info">Information</a></li>
+						<li>
+							<a href="#home" data-icon="home">
+								Home
+							</a>
+						</li>
+						<li>
+							<a href="#favorites" data-icon="star">
+								Favorites
+							</a>
+						</li>
+						<li>
+							<a href="#news" data-icon="grid">
+								News Stream
+							</a>
+						</li>
+						<li>
+							<a href="#about" data-icon="info">
+								Information
+							</a>
+						</li>
 					</ul>
 				</div>
-			</div>
+        	</div>
 		</div>
 		<!-- Browse By Adventure -->
 		<div data-role="page" data-add-back-btn="true" id="Adventure" data-theme="a">
@@ -92,16 +148,32 @@
 				<div data-role="collapsible-set" data-inset="true" data-content-theme="d" id="AdventureReviews" data-filter="true">
                 </div>
 			</div>
-			<div data-role="footer"  data-position="fixed" data-id="nav">
+			<div data-role="footer" data-position="fixed" data-id="nav">
 				<div data-role="navbar">
 					<ul>
-						<li><a href="#home" data-icon="home">Home</a></li>
-						<li><a href="#favorites" data-icon="star">Favorites</a></li>
-						<li><a href="#news" data-icon="grid">News Stream</a></li>
-						<li><a href="#about" data-icon="info">Information</a></li>
+						<li>
+							<a href="#home" data-icon="home">
+								Home
+							</a>
+						</li>
+						<li>
+							<a href="#favorites" data-icon="star">
+								Favorites
+							</a>
+						</li>
+						<li>
+							<a href="#news" data-icon="grid">
+								News Stream
+							</a>
+						</li>
+						<li>
+							<a href="#about" data-icon="info">
+								Information
+							</a>
+						</li>
 					</ul>
 				</div>
-			</div>
+        	</div>
 		</div>
 		<!-- Browse By First-Person-Shooter -->
 		<div data-role="page" data-add-back-btn="true" id="First-Person-Shooter" data-theme="a">
@@ -112,16 +184,32 @@
 				<div data-role="collapsible-set" data-inset="true" data-content-theme="d" id="First-Person-ShooterReviews" data-filter="true">
                 </div>
 			</div>
-			<div data-role="footer"  data-position="fixed" data-id="nav">
+			<div data-role="footer" data-position="fixed" data-id="nav">
 				<div data-role="navbar">
 					<ul>
-						<li><a href="#home" data-icon="home">Home</a></li>
-						<li><a href="#favorites" data-icon="star">Favorites</a></li>
-						<li><a href="#news" data-icon="grid">News Stream</a></li>
-						<li><a href="#about" data-icon="info">Information</a></li>
+						<li>
+							<a href="#home" data-icon="home">
+								Home
+							</a>
+						</li>
+						<li>
+							<a href="#favorites" data-icon="star">
+								Favorites
+							</a>
+						</li>
+						<li>
+							<a href="#news" data-icon="grid">
+								News Stream
+							</a>
+						</li>
+						<li>
+							<a href="#about" data-icon="info">
+								Information
+							</a>
+						</li>
 					</ul>
 				</div>
-			</div>
+        	</div>
 		</div>
 		<!-- Browse By Racing -->
 		<div data-role="page" data-add-back-btn="true" id="Racing" data-theme="a">
@@ -132,16 +220,32 @@
 				<div data-role="collapsible-set" data-inset="true" data-content-theme="d" id="RacingReviews" data-filter="true">
                 </div>
 			</div>
-			<div data-role="footer"  data-position="fixed" data-id="nav" data-theme="a">
+			<div data-role="footer" data-position="fixed" data-id="nav">
 				<div data-role="navbar">
 					<ul>
-						<li><a href="#home" data-icon="home">Home</a></li>
-						<li><a href="#favorites" data-icon="star">Favorites</a></li>
-						<li><a href="#news" data-icon="grid">News Stream</a></li>
-						<li><a href="#about" data-icon="info">Information</a></li>
+						<li>
+							<a href="#home" data-icon="home">
+								Home
+							</a>
+						</li>
+						<li>
+							<a href="#favorites" data-icon="star">
+								Favorites
+							</a>
+						</li>
+						<li>
+							<a href="#news" data-icon="grid">
+								News Stream
+							</a>
+						</li>
+						<li>
+							<a href="#about" data-icon="info">
+								Information
+							</a>
+						</li>
 					</ul>
 				</div>
-			</div>
+        	</div>
 		</div>
 		<!-- Browse By Role-Playing -->
 		<div data-role="page" data-add-back-btn="true" id="Role-Playing" data-theme="a">
@@ -152,16 +256,32 @@
 				<div data-role="collapsible-set" data-inset="true" data-content-theme="d" id="Role-PlayingReviews" data-filter="true">
                 </div>
 			</div>
-			<div data-role="footer"  data-position="fixed" data-id="nav">
+			<div data-role="footer" data-position="fixed" data-id="nav">
 				<div data-role="navbar">
 					<ul>
-						<li><a href="#home" data-icon="home">Home</a></li>
-						<li><a href="#favorites" data-icon="star">Favorites</a></li>
-						<li><a href="#news" data-icon="grid">News Stream</a></li>
-						<li><a href="#about" data-icon="info">Information</a></li>
+						<li>
+							<a href="#home" data-icon="home">
+								Home
+							</a>
+						</li>
+						<li>
+							<a href="#favorites" data-icon="star">
+								Favorites
+							</a>
+						</li>
+						<li>
+							<a href="#news" data-icon="grid">
+								News Stream
+							</a>
+						</li>
+						<li>
+							<a href="#about" data-icon="info">
+								Information
+							</a>
+						</li>
 					</ul>
 				</div>
-			</div>
+        	</div>
 		</div>
 		<!-- Favorites -->
 		<div data-role="page" data-add-back-btn="true" id="favorites" data-theme="a">
@@ -178,16 +298,32 @@
                     
                 </ul>
 			</div>
-			<div data-role="footer"  data-position="fixed" data-id="nav">
+			<div data-role="footer" data-position="fixed" data-id="nav">
 				<div data-role="navbar">
 					<ul>
-						<li><a href="#home" data-icon="home">Home</a></li>
-						<li><a href="#favorites" data-icon="star" class="ui-btn-active">Favorites</a></li>
-						<li><a href="#news" data-icon="grid">News Stream</a></li>
-						<li><a href="#about" data-icon="info">Information</a></li>
+						<li>
+							<a href="#home" data-icon="home">
+								Home
+							</a>
+						</li>
+						<li>
+							<a href="#favorites" data-icon="star">
+								Favorites
+							</a>
+						</li>
+						<li>
+							<a href="#news" data-icon="grid">
+								News Stream
+							</a>
+						</li>
+						<li>
+							<a href="#about" data-icon="info">
+								Information
+							</a>
+						</li>
 					</ul>
 				</div>
-			</div>
+        	</div>
 		</div>
 		<!-- News Stream -->
 		<div data-role="page" data-add-back-btn="true" id="news" data-theme="a">
@@ -223,16 +359,32 @@
                     </li>
                 </ul>
 			</div>
-			<div data-role="footer"  data-position="fixed" data-id="nav">
+			<div data-role="footer" data-position="fixed" data-id="nav">
 				<div data-role="navbar">
 					<ul>
-						<li><a href="#home" data-icon="home">Home</a></li>
-						<li><a href="#favorites" data-icon="star">Favorites</a></li>
-						<li><a href="#news" data-icon="grid" class="ui-btn-active">News Stream</a></li>
-						<li><a href="#about" data-icon="info">Information</a></li>
+						<li>
+							<a href="#home" data-icon="home">
+								Home
+							</a>
+						</li>
+						<li>
+							<a href="#favorites" data-icon="star">
+								Favorites
+							</a>
+						</li>
+						<li>
+							<a href="#news" data-icon="grid">
+								News Stream
+							</a>
+						</li>
+						<li>
+							<a href="#about" data-icon="info">
+								Information
+							</a>
+						</li>
 					</ul>
 				</div>
-			</div>
+        	</div>
 		</div>
 		<!-- Information -->
 		<div data-role="page" data-add-back-btn="true" id="about" data-theme="a">
@@ -249,16 +401,32 @@
 					</ul>
 				</div>
 			</div>
-			<div data-role="footer"  data-position="fixed" data-id="nav">
+			<div data-role="footer" data-position="fixed" data-id="nav">
 				<div data-role="navbar">
 					<ul>
-						<li><a href="#home" data-icon="home">Home</a></li>
-						<li><a href="#favorites" data-icon="star">Favorites</a></li>
-						<li><a href="#news" data-icon="grid">News Stream</a></li>
-						<li><a href="#about" data-icon="info" class="ui-btn-active">Information</a></li>
+						<li>
+							<a href="#home" data-icon="home">
+								Home
+							</a>
+						</li>
+						<li>
+							<a href="#favorites" data-icon="star">
+								Favorites
+							</a>
+						</li>
+						<li>
+							<a href="#news" data-icon="grid">
+								News Stream
+							</a>
+						</li>
+						<li>
+							<a href="#about" data-icon="info">
+								Information
+							</a>
+						</li>
 					</ul>
 				</div>
-			</div>
+        	</div>
 		</div>
 		<!-- Add Item Page -->
         <!-- This is not an active page the code will run but it will not display this is for my own use -->
@@ -269,13 +437,19 @@
 			<div data-role="content">
 				<div class="ui-grid-c">
 					<div class="ui-block-a ui-btn-text">
-						<a href="#" value="Clear Data" onClick="localStorage.clear()" title="clearData" id="clearData" class="button" data-inline="true">Clear All Data</a>
+						<a href="#" onClick="localStorage.clear()" title="clearData" id="clearData" class="button" data-inline="true">
+							Clear All Data
+						</a>
 					</div>
 					<div class="ui-block-b">
-						<p data-inline="true">*Required!</p>
+						<p data-inline="true">
+							*Required!
+						</p>
 					</div>
 					<div class="ui-block-c">
-						<a href="#displayReviews" value="Display Data" title="displayData" id="displayData" class="button" data-inline="true">Display Reviews</a>
+						<a href="#displayReviews" title="displayData" id="displayData" class="button" data-inline="true">
+							Display Reviews
+						</a>
 					</div>
 				</div>
 				<!-- Input Fields -->
@@ -283,106 +457,129 @@
 			  		<fieldset id="addItemField">
 						<div data-role="fieldcontain">
 				  			<ul data-role="listview"  data-inset="true" id="addItemForm">
-				  				<li data-role="list-divider">Game Category*</li>
+				  				<li data-role="list-divider">
+									Game Category*
+								</li>
                                 <li id="gamecategoryList">
-                                	<label for="gamecategory" style="display:none">Game category: </label>
                                     <select id="gamecategory" name="gamecategory" class="required" data-native-menu="false">
-                                        <option value="Category">Category</option>
-                                        <option value="Action">Action</option>
-                                        <option value="Adventure">Adventure</option>
-                                        <option value="First-Person-Shooter">First Person Shooter</option>
-                                        <option value="Racing">Racing</option>
-                                        <option value="Role-Playing">Role Playing</option>
+                                        <option value="Category">
+											Category
+										</option>
+                                        <option value="Action">
+											Action
+										</option>
+                                        <option value="Adventure">
+											Adventure
+										</option>
+                                        <option value="First-Person-Shooter">
+											First Person Shooter
+										</option>
+                                        <option value="Racing">
+											Racing
+										</option>
+                                        <option value="Role-Playing">
+											Role Playing
+										</option>
                                     </select>
                                 </li>
-                                <li data-role="list-divider">Game Name*</li>
+                                <li data-role="list-divider">
+									Game Name*
+								</li>
                                 <li id="gameNameLi">
-                                	<label for="gameName" style="display:none">Game Name: </label>
                                     <input type="text" id="gameName" name="gameName" placeholder="The Legend of Zelda: Skyward Sword" class="required" />
                                 </li>
-                                <li data-role="list-divider">Game Publisher*</li>
+                                <li data-role="list-divider">
+									Game Publisher*
+								</li>
                                 <li id="gamePublisherLi">
-                                	<label for="gamePublisher" style="display:none">Game Publisher: </label>
                                     <input type="text" name="gamePublisher" id="gamePublisher" placeholder="Nintendo" class="required" />
                                 </li>
-                                <li data-role="list-divider">Game Release Date*</li>
+                                <li data-role="list-divider">
+									Game Release Date*
+								</li>
                                 <li id="gameReleaseLi">
-                                	<label for="gameRelease" style="display:none">Game Release Date: </label>
                                     <input type="date" value="2013-03-21" id="gameRelease" name="gameRelease" class="required gameRelease" /> 
                                 </li>
-                                <li data-role="list-divider">Game Rating(0-10)</li>
+                                <li data-role="list-divider">
+									Game Rating(0-10)
+								</li>
                                 <li id="gameRatingLi">
                                     <div id="gameRating">
-                                    <label for="gameRate" style="display:none">Game Rating: </label>
-                                    <input type="range" id="gameRate" name="gameRate" value="0" min="0" max="10" class="ignore"/>
+										<input type="range" id="gameRate" name="gameRate" value="0" min="0" max="10" class="ignore"/>
                                     </div>
                                 </li>
-                                <li id="gameConsoleLd" value="gameConsole" data-role="list-divider">Game Console*: </li>
+                                <li id="gameConsoleLd" data-role="list-divider">
+									Game Console*: 
+								</li>
                                 <li id="consoleList">
-								<legend style="display:none" class="gameConsoleLegend">Game Console: </legend>
-                                    <fieldset id="gameConsole" name="gameConsole" value="Game Console: " data-role="controlgroup">
+                                    <fieldset id="gameConsole" name="gameConsole" data-role="controlgroup">
                                         <input type="checkbox" value="Xbox 360" name="xbox360" id="xbox360" />
-                                        <label value="Xbox 360" for="xbox360">Xbox 360</label>
+                                        <label for="xbox360">
+											Xbox 360
+										</label>
                                         <input type="checkbox" value="Playstation 3" name="ps3" id="ps3" />
-                                        <label value="Playstation 3" for="ps3">Playstation 3</label>
+                                        <label for="ps3">
+											Playstation 3
+										</label>
                                         <input type="checkbox" value="Wii" name="wii" id="wii" />
-                                        <label value="Wii" for="wii">Wii</label>
+                                        <label for="wii">
+											Wii
+										</label>
                                     </fieldset>
                                 </li>
-                                <li data-role="list-divider">Comments</li>
+                                <li data-role="list-divider">
+									Comments
+								</li>
                                 <li id="comm">
-                                	<label for="comments" style="display:none">Comments: </label>
                                     <textarea id="comments" name="comments" placeholder="This game was amazing A++!"></textarea>
                                 </li>
                             </ul>
 				  			<div id="submitButtonDiv">
                   				<input id="submit" type="submit" value="Add Review" name="submit" />
                   			</div>
-							<div style="display:none" id="loadedCheckbox">
-								<input type="checkbox" value="loaded" name="loaded" id="loaded" />
-							</div>
 						</div>
 					</fieldset>
-                    <a href="#addItemErrors" id="addItemErrorsLink" style="display:none" data-rel="dialog" data-transition="pop">Open Errors</a>
+                    <a href="#addItemErrors" id="addItemErrorsLink" style="display:none" data-rel="dialog" data-transition="pop">
+						Open Errors
+					</a>
 				</form>
-				<a href="#displayDataPage" id="displayDataPageLink" style="display:none">Data Page</a>
-			  </div>
-			  <div data-role="footer"  data-position="fixed" data-id="nav">
+				<a href="#displayDataPage" id="displayDataPageLink" style="display:none">
+					Data Page
+				</a>
+			</div>
+			<div data-role="footer" data-position="fixed" data-id="nav">
 				<div data-role="navbar">
 					<ul>
-						<li><a href="#home" data-icon="home">Home</a></li>
-						<li><a href="#favorites" data-icon="star">Favorites</a></li>
-						<li><a href="#news" data-icon="grid">News Stream</a></li>
-						<li><a href="#about" data-icon="info">Information</a></li>
+						<li>
+							<a href="#home" data-icon="home">
+								Home
+							</a>
+						</li>
+						<li>
+							<a href="#favorites" data-icon="star">
+								Favorites
+							</a>
+						</li>
+						<li>
+							<a href="#news" data-icon="grid">
+								News Stream
+							</a>
+						</li>
+						<li>
+							<a href="#about" data-icon="info">
+								Information
+							</a>
+						</li>
 					</ul>
 				</div>
-			</div>
-            <div data-role="page" data-add-back-btn="true" data-theme="a" id="displayDataPage">
-            	<div data-role="header" >
-                	<h3>Game List</h3>
-                </div>
-                <div data-role="content">
-                	<ul data-role="listview" data-inset="true" data-filter="true">
-                            <ul data-role="collapsible-set">
-							</ul>
-                            <ul data-role="collapsible-set" data-ajax="false">
-                            </ul>
-                    </ul>
-                </div>
-                <div data-role="footer" >
-                	<ul>
-                        <li><a href="#home" data-icon="home">Home</a></li>
-                        <li><a href="#favorites" data-icon="star">Favorites</a></li>
-                        <li><a href="#news" data-icon="grid">News Stream</a></li>
-                        <li><a href="#about" data-icon="info">Information</a></li>
-                    </ul>
-                </div>
-            </div>
+        	</div>
 		</div>
         <!-- Add Item Errors Page -->
         <div data-role="dialog" id="addItemErrors">
         	<div data-role="header" data-position="fixed">
-            	<h1>Missing Fields</h1>
+            	<h1>
+					Missing Fields
+				</h1>
             </div>
             <div data-role="content">
             	<ul>
@@ -392,24 +589,94 @@
 		<!-- Display Page -->
         <div data-role="page" id="displayReviews" data-theme="a">
         	<div data-role="header" data-position="fixed">
-            	<h3>Saved Reviews</h3>
+            	<h3>
+					Saved Reviews
+				</h3>
             </div>
 			<div data-role="content" >
             	<div data-role="collapsible-set" data-inset="true" data-content-theme="d" id="dynamicReviews" data-filter="true">
                 </div>
             </div>
-          	<div data-role="footer"  data-position="fixed" data-id="nav">
-            	<div data-role="navbar">
-                	<ul>
-                    	<li><a href="#home" data-icon="home">Home</a></li>
-                        <li><a href="#favorites" data-icon="star">Favorites</a></li>
-                        <li><a href="#news" data-icon="grid">News Stream</a></li>
-                        <li><a href="#about" data-icon="info">Information</a></li>
-                    </ul>
-            	</div>
-            </div>        
+          	<div data-role="footer" data-position="fixed" data-id="nav">
+				<div data-role="navbar">
+					<ul>
+						<li>
+							<a href="#home" data-icon="home">
+								Home
+							</a>
+						</li>
+						<li>
+							<a href="#favorites" data-icon="star">
+								Favorites
+							</a>
+						</li>
+						<li>
+							<a href="#news" data-icon="grid">
+								News Stream
+							</a>
+						</li>
+						<li>
+							<a href="#about" data-icon="info">
+								Information
+							</a>
+						</li>
+					</ul>
+				</div>
+        	</div>        
 		</div>
-        <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+		<!-- Edit Item Page -->
+		<div data-role="page" data-add-back-btn="true" id="editItem" data-theme="a">
+				<div data-role="header"  data-position="fixed">
+					<h3 id="editGameReview">Edit Review</h3>
+				</div>
+				<div data-role="content">
+					<div class="ui-grid-c">
+						<div class="ui-block-a ui-btn-text">
+							<a href="#" onClick="localStorage.clear()" title="clearData" id="clearData2" class="button clearData" data-inline="true">
+								Clear All Data
+							</a>
+						</div>
+						<div class="ui-block-b">
+							<p data-inline="true">
+								*Required!
+							</p>
+						</div>
+						<div class="ui-block-c">
+							<a href="#displayReviews" title="displayData" id="displayData" class="button displayData" data-inline="true">
+								Display Reviews
+							</a>
+						</div>
+					</div>
+					<div id="editFormDiv">
+					</div>
+				</div>
+				<div data-role="footer"  data-position="fixed" data-id="nav"><div data-role="navbar">
+					<ul>
+						<li>
+							<a href="#home" data-icon="home">
+								Home
+							</a>
+						</li>
+						<li>
+							<a href="#favorites" data-icon="star">
+								Favorites
+							</a>
+						</li>
+						<li>
+							<a href="#news" data-icon="grid">
+								News Stream
+							</a>
+						</li>
+						<li>
+							<a href="#about" data-icon="info">
+								Information
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
         <script src="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.js"></script>
 		<script src="jquery.validate.min.js"></script>
 		<script type="text/javascript" src="Main.js"></script>

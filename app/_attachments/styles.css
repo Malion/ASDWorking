@@ -3,7 +3,14 @@
  3-7-2013 
  MiU Project 1 1303 
 */
-
+.submitButton {
+	display:block;
+}
+#mainImage {
+	display:box;
+	box-pack:center;
+	box-align:center;
+}
 .ui-bar-a {
 	border: 1px solid #b3b3b3 /*{a-bar-border}*/;
 	background: #eeeeee /*{a-bar-background-color}*/;
